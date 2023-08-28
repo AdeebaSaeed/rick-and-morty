@@ -1,0 +1,36 @@
+/* Search.css */
+
+/* Style for the search container */
+.search-container {
+  display: flex;
+  justify-content: flex-end; /* Align the search bar to the right side */
+  padding: 10px;
+  background-color: #fff; /* Background color for the search bar */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); /* Add a shadow for a subtle effect */
+}
+
+/* Style for the search input */
+.search-container input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the search button */
+.search-container button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Style the search button on hover */
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+
+

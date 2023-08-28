@@ -1,0 +1,54 @@
+
+
+body {
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+
+
+.container {
+  background-color: white;
+  padding: 30px;
+}
+
+.character-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.character-card {
+  flex: 0 0 calc(25% - 20px); 
+  border: 2px solid rgb(96, 96, 241);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #fff; 
+  color: #000; 
+  transition: background-color 0.3s;
+}
+
+.character-card:hover {
+  background-color: #f0f0f0; 
+}
+
+.character-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+.character-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.character-location {
+  font-size: .95rem;
+  margin-top: 1px;
+  padding-left: 10px; 
+}
